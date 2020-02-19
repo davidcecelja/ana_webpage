@@ -8,10 +8,9 @@
 
 // 2. Vendors
 @import
-    'vendors/bootstrap/bootstrap-reboot.scss',
-    'vendors/bootstrap/bootstrap.scss',
-    'vendors/bootstrap/bootstrap-grid.scss',
-    'vendors/parsley.scss';
+    'vendors/bootstrap-scss/bootstrap.scss',
+    'vendors/bootstrap-scss/bootstrap-grid.scss',
+    'vendors/parsley';
 
 // 3. Base stuff
 @import
@@ -28,6 +27,9 @@
     
 // 6. Page specific styles
 @import
-    'pages/home';
+    'pages/index',
+    'pages/kontakt',
+    'pages/reference',
+    'pages/usluge';
 
 // 7. Themes
