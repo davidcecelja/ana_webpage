@@ -13196,3 +13196,48 @@ textarea.parsley-error {
 .parsley-errors-list.filled {
   opacity: 1;
 }
+
+.home-page .subtitle {
+  position: relative;
+}
+
+.home-page .subtitle::after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  box-shadow: 5px 5px 15px #007bff;
+  border-radius: 50%;
+}
+
+.home-page .icon-box {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border: solid 1px #007bff;
+  position: relative;
+}
+
+.home-page .icon-box i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.home-page .banner {
+  height: 467px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.home-page .banner.first {
+  background: transparent image("banner.jpg") no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
