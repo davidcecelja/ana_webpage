@@ -18,7 +18,7 @@
     }
 
     .icon-box{
-        width:120px;
+        width:500px;
         height:120px;
         margin:auto;
         border: solid 1px $blue;
@@ -34,14 +34,14 @@
     }
 
     .banner{
-        height: 467px;
+        height: 900px;
         padding: {
             top: 80px;
             bottom: 80px;
         }
 
         &.first{
-            background: transparent image('banner.jpg') no-repeat 0 0;
+            background: transparent image(blue) no-repeat 0 0;
             background-size: cover;
             background-attachment: fixed;
         }

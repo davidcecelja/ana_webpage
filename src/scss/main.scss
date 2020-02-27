@@ -22,6 +22,11 @@
 // 4. Layout releated sections
 
 // 5. Components
+
+$primary:       green !default;
+$secondary:     rgb(212, 212, 168) !default;
+$success:       $green !default;
+
 @import
     'components/navbar';
     
