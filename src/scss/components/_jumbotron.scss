@@ -1,8 +1,8 @@
 .jumbotron {
     padding: $jumbotron-padding ($jumbotron-padding / 2);
     margin-bottom: $jumbotron-padding;
-    color: whitesmoke;
-    background-image: url(slika);
+    color: rgb(38, 195, 201);
+    background: gray;
     @include border-radius($border-radius-lg);
   
     @include media-breakpoint-up(sm) {
