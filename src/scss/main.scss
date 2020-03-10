@@ -10,7 +10,8 @@
 @import
     'vendors/bootstrap/bootstrap.scss',
     'vendors/bootstrap/bootstrap-grid.scss',
-    'vendors/bootstrap/bootstrap-reboot.scss';
+    'vendors/bootstrap/bootstrap-reboot.scss',
+    'vendors/parsley';
 
 // 3. Base stuff
 @import
@@ -24,7 +25,8 @@
 // 5. Components
 @import
     'components/navbar', 
-    'components/jumbotron';
+    'components/jumbotron',
+    'components/modal';
     
     
 // 6. Page specific styles

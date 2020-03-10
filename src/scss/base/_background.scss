@@ -1,3 +1,20 @@
-.bg-gradient-black{
-    background: $black linear-gradient($black, $gray-555);
-}
+// stylelint-disable declaration-no-important
+
+@each $color, $value in $theme-colors {
+    @include bg-variant(".bg-#{$color}", $value);
+  }
+  
+  @if $enable-gradients {
+    @each $color, $value in $theme-colors {
+      @include bg-gradient-variant(".bg-gradient-#{$color}", $value);
+    }
+  }
+  
+  .bg-white {
+    background-color: $gray !important;
+  }
+  
+  .bg-transparent {
+    background-color: rgb(214, 214, 214) !important;
+  }
+  

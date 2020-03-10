@@ -3,10 +3,12 @@
 // ---------------------------------------------------------
 
 // Color system
-$gray-555: gray 555;
+$gray-555: rgb(59, 58, 58) 555;
 // FONTS
-$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-sans-serif: "Roboto", sans-serif;
 // PATHS
-$base-url: '/assets/' !default;
+$base-url: "/assets/" !default;
 // ENABLE BOOTSTRAP GRADIENTS
 $enable-gradients: true;
+// Jumbotron
+$jumbotron-bg: gray !default;

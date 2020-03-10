@@ -5,16 +5,16 @@
 // Dark links against a light background
 .navbar-light {
   .navbar-brand {
-    color: red;
+    color: blue;
 
     @include hover-focus {
-      color: blue;
+      color: yellow;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: yellow;
+      color: grey;
 
       @include hover-focus {
         color: $navbar-light-hover-color;
@@ -43,12 +43,12 @@
   }
 
   .navbar-text {
-    color: brown;
+    color: black;
     a {
       color: $navbar-light-active-color;
 
       @include hover-focus {
-        color: blue;
+        color: yellow;
       }
     }
   }
