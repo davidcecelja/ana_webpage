@@ -1,8 +1,8 @@
 .jumbotron {
     padding: $jumbotron-padding ($jumbotron-padding / 2);
     margin-bottom: $jumbotron-padding;
-    color: rgb(192, 217, 218);
-    background: gray;
+    color: red;
+    background: rgb(62, 139, 172);
     @include border-radius($border-radius-lg);
   
     @include media-breakpoint-up(sm) {

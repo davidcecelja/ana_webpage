@@ -10,8 +10,8 @@
 @import
     'vendors/bootstrap/bootstrap.scss',
     'vendors/bootstrap/bootstrap-grid.scss',
-    'vendors/bootstrap/bootstrap-reboot.scss',
-    'vendors/parsley';
+    'vendors/bootstrap/bootstrap-reboot.scss';
+   
 
 // 3. Base stuff
 @import
@@ -30,10 +30,5 @@
     
     
 // 6. Page specific styles
-@import
-    'pages/index',
-    'pages/kontakt',
-    'pages/reference',
-    'pages/usluge';
 
 // 7. Themes
