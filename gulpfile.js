@@ -7,9 +7,9 @@ const
     noop = require('gulp-noop'),
     htmlclean = require('gulp-htmlclean'),
     sync = require('browser-sync').create(),
-    sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     terser = require('gulp-terser'),
+    
     // paths
     src = 'src',
     build = 'build';
@@ -26,11 +26,7 @@ function html(){
 function css(){
     const out = build + '/assets/css'
 
-    return gulp.src(src + '/scss/main.scss')
-        .pipe(sass({
-            errorLogToConsole: devBuild,
-            outputStyle: devBuild ? 'expanded' : 'compressed'
-        })).on('error', sass.logError)
+    return gulp.src(src + '/css/style.css')
         .pipe(concat('bundle.min.css'))
         .pipe(gulp.dest(out))
         .pipe(sync.stream());
@@ -41,7 +37,6 @@ function js(){
 
     return gulp.src([
         'node_modules/jquery/dist/jquery.js',
-        'node_modules/parsleyjs/dist/parsley.js',
         src + '/js/**/*'
     ])
     .pipe(newer(out))
@@ -66,7 +61,7 @@ function watch(done){
     // HTML changes
     gulp.watch(src + '/html/**/*', html);
     // CSS changes
-    gulp.watch(src + '/scss/**/*', css);
+    gulp.watch(src + '/css/**/*', css);
     // JS changes
     gulp.watch(src + '/js/**/*', js);
     // Reload browser
