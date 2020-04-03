@@ -16,33 +16,35 @@
 
 <body>
     <!--START Navbar-->
-    <section>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-fluid bg-light">
-                <a class="navbar-brand" href="#">Ana Cecelja Consulting</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="usluge.html">Usluge</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="reference.html">Reference</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </section>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-black sticky-top">
+            <a class="navbar-brand" href="#">Ana Cecelja Consulting</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-left " href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-left" href="usluge.html">Usluge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-left" href="reference.html">Reference</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-left" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-right" href="index.html" data-toggle="modal"
+                            data-target="#loginModal">Registracija</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!--END Navbar-->
     <!--START Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
@@ -54,8 +56,7 @@
         <a class="navbar-brand" href="page4.html">anacecelja@gmail.com</a>
     </nav>
     <!--START Jumbotron-->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

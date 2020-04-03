@@ -1,11 +1,35 @@
-.navigation {
-    background-color: black;
+body, html{
+background-color: linear-gradient(grey, rgb(231, 231, 231));
 }
 
-.footer{
-    background-color: rgb(56, 15, 15);
+.navbar{
+    background-image: linear-gradient(black, grey);
+    color: white;
 }
 
-.jumbotron{
-    background-color: khaki;
+.modal-footer {
+    background-color: rgb(73, 39, 0);
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    
+  }
+
+a{
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+
+.jumbotron {
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0rem;
+    color: white;
+  }
+
+.facebook {
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 1px;
 }
