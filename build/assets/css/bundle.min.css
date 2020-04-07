@@ -1,5 +1,5 @@
 body, html{
-background-color: linear-gradient(grey, rgb(231, 231, 231));
+background-color: rgb(224, 224, 224);
 }
 
 .navbar{
@@ -23,13 +23,43 @@ a:hover{
 
 .jumbotron {
     padding: 4rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     border-radius: 0rem;
     color: white;
-  }
+    text-shadow: 0 0 5px black;
+}
 
 .facebook {
     background-color: white;
     border-radius: 0.3rem;
     padding: 1px;
 }
+
+/*---css za box--*/
+.column {
+    float: left;
+    width: 33%;
+    padding: 60px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
