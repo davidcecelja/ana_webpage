@@ -1,65 +1,96 @@
-body, html{
-background-color: rgb(224, 224, 224);
+body,
+html {
+  background-color: rgb(224, 224, 224);
 }
 
-.navbar{
-    background-image: linear-gradient(black, grey);
-    color: white;
+/*--navbar--*/
+.navbar {
+  background-image: linear-gradient(black, grey);
+  color: white;
 }
 
+/*--footer--*/
 .modal-footer {
-    background-color: rgb(73, 39, 0);
-    border-bottom-right-radius: 0rem;
-    border-bottom-left-radius: 0rem;
-    
-  }
-
-a{
-    color: white;
+  background-image: linear-gradient(rgb(73, 39, 0), rgb(54, 29, 0));
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  padding: 30px;
+  color: white;
 }
-a:hover{
-    color: grey;
+.linkedin{
+  padding-left: 10px;
+}
+.facebook{
+  padding-left: 10px;
+}
+.twitter{
+  padding-left: 10px;
+}
+.pinterest{
+  padding-left: 10px;
+}
+.skype{
+  padding-left: 10px;
 }
 
+
+a {
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+
+/*--jumbotron--*/
 .jumbotron {
-    padding: 4rem 1rem;
-    margin-bottom: 0rem;
-    border-radius: 0rem;
-    color: white;
-    text-shadow: 0 0 5px black;
+  padding: 6rem 1rem;
+  margin-bottom: 0rem;
+  border-radius: 0rem;
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
-.facebook {
-    background-color: white;
-    border-radius: 0.3rem;
-    padding: 1px;
-}
-
-/*---css za box--*/
+/*---box--*/
 .column {
-    float: left;
-    width: 33%;
-    padding: 60px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-  }
-  
-  .containerTab {
-    padding: 20px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .closebtn {
-    float: right;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-  }
+  float: left;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+  text-shadow: 0 0 3px white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+p {
+  padding-left: 20px;
+}
+h2 {
+  padding-left: 30px;
+}
+
+/*--blog--*/
+.blog{
+  padding-left: 30px;
+}
+
+
+
