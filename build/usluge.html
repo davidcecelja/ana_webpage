@@ -56,6 +56,41 @@
         <a class="navbar-brand" href="page4.html">anacecelja@gmail.com</a>
     </nav>
     <!--START Jumbotron-->
+    <!--START expanding boxes-->
+  <div class="row">
+    <div class="column" onclick="openTab('b1');" style="background-image: radial-gradient(rgb(255, 245, 190), gold);">
+      Pisanje projekata
+    </div>
+    <div class="column" onclick="openTab('b2');" style="background-image: radial-gradient(rgb(255, 245, 190), gold);">
+      Provedba
+    </div>
+    <div class="column" onclick="openTab('b3');" style="background-image: radial-gradient(rgb(255, 245, 190), gold);">
+      Consulting
+    </div>
+  </div>
+
+  <!-- Full-width columns: (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p>Pružamo potpunu uslugu vezanu za financiranje projekata putem bespovratnih potpora iz EU fondova i ostalih
+      izvora. Usluga je namijenjena udrugama i drugim neprofitnim organizacijama, jedinicama regionalne i lokalne
+      samouprave, javnim ustanovama, poduzetnicima i fizičkim osobama.
+      Usluga obuhvaća razvoj projektne ideje i pisanje projekta, ispunjavanje natječajne dokumentacije, prijava projekta
+      te ugovaranje.</p>
+  </div>
+  <div id="b2" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p>Usluge podrške u aktivnostima neophodnima za uspješnu provedbu projekta za kojeg su odobrena bespovratna sredstva
+      Europske unije.</p>
+  </div>
+  <div id="b3" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <p>Savjetovanje o aktualnim natječajima i javnim pozivima (EU i nacionalni projekti).
+      Pomoć u pripremi i prijava projekata.
+      Edukacije na temu pripreme za prijavu projekata.
+      Savjetovanje pri provedbi javne nabave kod projekata EU.</p>
+  </div>
+  <!--END expanding boxes-->
     <aside>
         <div>Sidebar 1</div>
         <div>Sidebar 2</div>

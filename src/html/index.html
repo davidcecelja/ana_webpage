@@ -15,11 +15,30 @@
 </head>
 
 <body>
+  <!--START navbar logo-->
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png"></a>
+      </div>
+    </nav>
+  </div>
+  <!--END navbar logo-->
+
+  <!--START Jumbotron-->
+  <div class="jumbotron jumbotron-fluid"
+    style="background-image: url(assets/images/sky.jpg); background-size: 100%;">
+    <div class="container fluid">
+      <h1 class="display-4">Pisanje projekata. Provedba. Consulting.</h1>
+    </div>
+  </div>
+  <!--END Jumbotron-->
+
   <!--START Navbar-->
   <div class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-black sticky-top">
+    <nav class="navbar2 navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Ana Cecelja Consulting</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,16 +46,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-right " href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-right " href="index.html">Home |<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-right" href="usluge.html">Usluge</a>
+              <a class="nav-link text-right" href="usluge.html">Usluge |</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-right" href="reference.html">Reference</a>
+              <a class="nav-link text-right" href="reference.html">Reference |</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-right" href="kontakt.html">Kontakt</a>
+              <a class="nav-link text-right" href="kontakt.html">Kontakt |</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-right" href="index.html" data-toggle="modal"
@@ -45,62 +64,28 @@
           </ul>
         </div>
       </div>
-
     </nav>
   </div>
   <!--END Navbar-->
 
-  <!--START Jumbotron-->
-  <div class="jumbotron jumbotron-fluid"
-    style="background-image: url(assets/images/banner.jpg); background-size: 100%;">
-    <div class="container fluid">
-      <h1 class="display-4">Pisanje projekata. Provedba. Consulting.</h1>
-    </div>
-  </div>
-  <!--END Jumbotron-->
-
-  <!--START expanding boxes-->
-  <div class="row">
-    <div class="column" onclick="openTab('b1');" style="background-image: radial-gradient(cyan, blue);">
-      Pisanje projekata
-    </div>
-    <div class="column" onclick="openTab('b2');" style="background-image: radial-gradient(yellow,red);">
-      Provedba
-    </div>
-    <div class="column" onclick="openTab('b3');" style="background-image: radial-gradient(cyan, green);">
-      Consulting
-    </div>
-  </div>
-
-  <!-- Full-width columns: (hidden by default) -->
-  <div id="b1" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <p>Pružamo potpunu uslugu vezanu za financiranje projekata putem bespovratnih potpora iz EU fondova i ostalih
-      izvora. Usluga je namijenjena udrugama i drugim neprofitnim organizacijama, jedinicama regionalne i lokalne
-      samouprave, javnim ustanovama, poduzetnicima i fizičkim osobama.
-      Usluga obuhvaća razvoj projektne ideje i pisanje projekta, ispunjavanje natječajne dokumentacije, prijava projekta
-      te ugovaranje.</p>
-  </div>
-  <div id="b2" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <p>Usluge podrške u aktivnostima neophodnima za uspješnu provedbu projekta za kojeg su odobrena bespovratna sredstva
-      Europske unije.</p>
-  </div>
-  <div id="b3" class="containerTab" style="display:none;background:rgb(151, 151, 151)">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    <p>Savjetovanje o aktualnim natječajima i javnim pozivima (EU i nacionalni projekti).
-      Pomoć u pripremi i prijava projekata.
-      Edukacije na temu pripreme za prijavu projekata.
-      Savjetovanje pri provedbi javne nabave kod projekata EU.</p>
-  </div>
-  <!--END expanding boxes-->
-
   <!--START CONTENT AREA-->
-  <div class="row" id="blog">
+  <div class="blog">
     <div class="column">
       <div class="card">
         <h2>TITLE HEADING</h2>
         <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+      </div>
+      <div class="card">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+      </div>
+      <div class="card">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
         <div class="fakeimg" style="height:200px;">Image</div>
         <p>Some text..</p>
       </div>

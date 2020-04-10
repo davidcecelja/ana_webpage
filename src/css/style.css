@@ -1,17 +1,57 @@
 body,
 html {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(252, 249, 216);
+}
+a {
+  color: black;
+  font-size: large;
+  text-shadow: 0 0 5px white;
+}
+a:hover {
+  color:magenta;
+}
+p {
+  padding-left: 20px;
+}
+h2 {
+  padding-left: 30px;
 }
 
 /*--navbar--*/
 .navbar {
-  background-image: linear-gradient(black, grey);
+  background-color: white;
   color: white;
+}
+.logo{height: auto;
+  width: auto;}
+
+.navbar2{
+  background-image: linear-gradient(gold, rgb(255, 234, 116));
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-shadow: 0 0 5px white;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: magenta;
+}
+
+/*--jumbotron--*/
+.jumbotron {
+  padding: 8rem 1rem;
+  margin-bottom: 0rem;
+  border-radius: 0rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*--footer--*/
 .modal-footer {
-  background-image: linear-gradient(rgb(73, 39, 0), rgb(54, 29, 0));
+  background-color: rgb(4, 26, 27);
   border-bottom-right-radius: 0rem;
   border-bottom-left-radius: 0rem;
   padding: 30px;
@@ -31,23 +71,6 @@ html {
 }
 .skype{
   padding-left: 10px;
-}
-
-
-a {
-  color: white;
-}
-a:hover {
-  color: grey;
-}
-
-/*--jumbotron--*/
-.jumbotron {
-  padding: 6rem 1rem;
-  margin-bottom: 0rem;
-  border-radius: 0rem;
-  color: white;
-  text-shadow: 0 0 5px black;
 }
 
 /*---box--*/
@@ -78,13 +101,6 @@ a:hover {
   color: white;
   font-size: 35px;
   cursor: pointer;
-}
-
-p {
-  padding-left: 20px;
-}
-h2 {
-  padding-left: 30px;
 }
 
 /*--blog--*/
