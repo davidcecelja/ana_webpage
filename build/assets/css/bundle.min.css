@@ -136,3 +136,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*--aside--*/
+.aside{
+  display: inline-block;
+  background-color: teal;
+}

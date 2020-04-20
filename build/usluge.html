@@ -219,6 +219,30 @@ priprema i podnošenje prijave na natječaj. |
                 <label for="validationDefault05">Poštanski broj</label>
                 <input type="text" class="form-control" id="validationDefault05" required>
               </div>
+              <div class="col-md-3 mb-3">
+                <form action="/action_page.php">
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Muško</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Žensko</label><br>
+                </form>
+              </div>
+              <div class="form-group">
+                <form action="/action_page.php">
+                  <label for="myfile">Odaberi podatke:</label>
+                  <input type="file" id="myfile" name="myfile"><br><br>
+                </form>
+              </div>
+              <div class="form-group">
+                <form action="/action_page.php" method="get">
+                  <label for="vol">Koliko ste zadovoljni uslugom (od 1-10):</label>
+                  <input type="range" id="vol" name="vol" min="0" max="10">
+                </form>
+              </div>
+            </div>
+            <div class="form-group">
+              <p>Vaš komentar:</p>
+              <input type="text" id="myText" value="Komentirajte!">
             </div>
             <div class="form-group">
               <div class="form-check">
@@ -228,12 +252,11 @@ priprema i podnošenje prijave na natječaj. |
                 </label>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">Potvrdi</button>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
-          <button type="button" class="btn btn-primary">Spremi</button>
+          <button type="button" class="btn btn-primary"><a href="mailto:anacecelja@gmail.com">Spremi</button>
         </div>
       </div>
     </div>
