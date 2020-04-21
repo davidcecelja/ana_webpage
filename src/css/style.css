@@ -9,7 +9,7 @@ a {
   text-shadow: 0 0 5px white;
 }
 a:hover {
-  color:magenta;
+  color: magenta;
 }
 p {
   padding-left: 20px;
@@ -23,10 +23,12 @@ h2 {
   background-color: white;
   color: white;
 }
-.logo{height: auto;
-  width: auto;}
+.logo {
+  height: auto;
+  width: auto;
+}
 
-.navbar2{
+.navbar2 {
   background-image: linear-gradient(to right, rgb(185, 13, 185), rgb(253, 186, 42));
 }
 
@@ -37,7 +39,8 @@ h2 {
   border-radius: 3px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   color: cyan;
 }
 
@@ -60,19 +63,19 @@ h2 {
   padding: 30px;
   color: white;
 }
-.linkedin{
+.linkedin {
   padding-left: 10px;
 }
-.facebook{
+.facebook {
   padding-left: 10px;
 }
-.twitter{
+.twitter {
   padding-left: 10px;
 }
-.pinterest{
+.pinterest {
   padding-left: 10px;
 }
-.skype{
+.skype {
   padding-left: 10px;
 }
 
@@ -107,7 +110,7 @@ h2 {
 }
 
 /*--blog--*/
-.blog{
+.blog {
   padding-top: 20px;
   padding-left: 10px;
   padding-top: 20px;
@@ -115,7 +118,7 @@ h2 {
 }
 
 /*--geolocation--*/
-.geolocation{
+.geolocation {
   padding: 30px;
   padding-bottom: 100px;
 }
@@ -130,7 +133,7 @@ h2 {
 
 /*--parallax--*/
 .parallax {
-  height: 40%; 
+  height: 40%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +141,20 @@ h2 {
 }
 
 /*--aside--*/
-.aside{
-  display: inline-block;
-  background-color: teal;
+.aside {
+  float: right;
+  width: 40%;
+  height: 35%;
+  background-color: rgb(44, 175, 175);
+  color: white;
+  padding: 40px;
+  margin: 50px 20px 10px;
+  border-radius: 10px;
+}
+.gmail{
+  padding-left: 20px;
+}
+.mob{
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
